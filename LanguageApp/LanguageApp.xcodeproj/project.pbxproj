@@ -9,14 +9,20 @@
 /* Begin PBXBuildFile section */
 		D36AE0B12AEA7093000491E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36AE0B02AEA7093000491E8 /* AppDelegate.swift */; };
 		D36AE0B32AEA7093000491E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36AE0B22AEA7093000491E8 /* SceneDelegate.swift */; };
-		D36AE0B52AEA7093000491E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36AE0B42AEA7093000491E8 /* ViewController.swift */; };
-		D36AE0B82AEA7093000491E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36AE0B62AEA7093000491E8 /* Main.storyboard */; };
 		D36AE0BB2AEA7093000491E8 /* LanguageApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D36AE0B92AEA7093000491E8 /* LanguageApp.xcdatamodeld */; };
 		D36AE0BD2AEA7094000491E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36AE0BC2AEA7094000491E8 /* Assets.xcassets */; };
 		D36AE0C02AEA7094000491E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36AE0BE2AEA7094000491E8 /* LaunchScreen.storyboard */; };
 		D36AE0CB2AEA7094000491E8 /* LanguageAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36AE0CA2AEA7094000491E8 /* LanguageAppTests.swift */; };
 		D36AE0D52AEA7094000491E8 /* LanguageAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36AE0D42AEA7094000491E8 /* LanguageAppUITests.swift */; };
 		D36AE0D72AEA7094000491E8 /* LanguageAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36AE0D62AEA7094000491E8 /* LanguageAppUITestsLaunchTests.swift */; };
+		E4706AB82AEA7263000BB639 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4706AB72AEA7263000BB639 /* HomeViewController.swift */; };
+		E4706ABD2AEA7386000BB639 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4706ABC2AEA7386000BB639 /* HomeViewModel.swift */; };
+		E4706ABF2AEA7700000BB639 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4706ABE2AEA7700000BB639 /* LoginViewController.swift */; };
+		E4706AC22AEA7723000BB639 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4706AC12AEA7723000BB639 /* SignupViewController.swift */; };
+		E4706AC42AEA773C000BB639 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4706AC32AEA773C000BB639 /* ForgotPasswordViewController.swift */; };
+		E4706AC62AEA7810000BB639 /* AddDivider+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4706AC52AEA7810000BB639 /* AddDivider+Extension.swift */; };
+		E4706AC82AEA79D4000BB639 /* language.json in Resources */ = {isa = PBXBuildFile; fileRef = E4706AC72AEA79D4000BB639 /* language.json */; };
+		E4706ACA2AEA7ADD000BB639 /* NativeLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4706AC92AEA7ADD000BB639 /* NativeLanguageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +46,6 @@
 		D36AE0AD2AEA7093000491E8 /* LanguageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36AE0B02AEA7093000491E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D36AE0B22AEA7093000491E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D36AE0B42AEA7093000491E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D36AE0B72AEA7093000491E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D36AE0BA2AEA7093000491E8 /* LanguageApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LanguageApp.xcdatamodel; sourceTree = "<group>"; };
 		D36AE0BC2AEA7094000491E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D36AE0BF2AEA7094000491E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		D36AE0D02AEA7094000491E8 /* LanguageAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36AE0D42AEA7094000491E8 /* LanguageAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageAppUITests.swift; sourceTree = "<group>"; };
 		D36AE0D62AEA7094000491E8 /* LanguageAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4706AB72AEA7263000BB639 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E4706ABC2AEA7386000BB639 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E4706ABE2AEA7700000BB639 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E4706AC12AEA7723000BB639 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		E4706AC32AEA773C000BB639 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		E4706AC52AEA7810000BB639 /* AddDivider+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddDivider+Extension.swift"; sourceTree = "<group>"; };
+		E4706AC72AEA79D4000BB639 /* language.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = language.json; sourceTree = "<group>"; };
+		E4706AC92AEA7ADD000BB639 /* NativeLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeLanguageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +113,13 @@
 		D36AE0AF2AEA7093000491E8 /* LanguageApp */ = {
 			isa = PBXGroup;
 			children = (
-				D36AE0B02AEA7093000491E8 /* AppDelegate.swift */,
-				D36AE0B22AEA7093000491E8 /* SceneDelegate.swift */,
-				D36AE0B42AEA7093000491E8 /* ViewController.swift */,
-				D36AE0B62AEA7093000491E8 /* Main.storyboard */,
-				D36AE0BC2AEA7094000491E8 /* Assets.xcassets */,
-				D36AE0BE2AEA7094000491E8 /* LaunchScreen.storyboard */,
-				D36AE0C12AEA7094000491E8 /* Info.plist */,
-				D36AE0B92AEA7093000491E8 /* LanguageApp.xcdatamodeld */,
+				E4706AB52AEA7218000BB639 /* Utilities */,
+				E4706ABB2AEA72BB000BB639 /* Models */,
+				E4706ABA2AEA729B000BB639 /* ViewModels */,
+				E4706AB92AEA726B000BB639 /* Controllers */,
+				E4706AB62AEA7227000BB639 /* Cells */,
+				E4706AB42AEA71D4000BB639 /* Support Files */,
+				E4706AC72AEA79D4000BB639 /* language.json */,
 			);
 			path = LanguageApp;
 			sourceTree = "<group>";
@@ -128,6 +139,69 @@
 				D36AE0D62AEA7094000491E8 /* LanguageAppUITestsLaunchTests.swift */,
 			);
 			path = LanguageAppUITests;
+			sourceTree = "<group>";
+		};
+		E4706AB42AEA71D4000BB639 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D36AE0B02AEA7093000491E8 /* AppDelegate.swift */,
+				D36AE0B22AEA7093000491E8 /* SceneDelegate.swift */,
+				D36AE0BC2AEA7094000491E8 /* Assets.xcassets */,
+				D36AE0BE2AEA7094000491E8 /* LaunchScreen.storyboard */,
+				D36AE0C12AEA7094000491E8 /* Info.plist */,
+				D36AE0B92AEA7093000491E8 /* LanguageApp.xcdatamodeld */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		E4706AB52AEA7218000BB639 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E4706AC52AEA7810000BB639 /* AddDivider+Extension.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		E4706AB62AEA7227000BB639 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		E4706AB92AEA726B000BB639 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4706AC02AEA770C000BB639 /* Logins */,
+				E4706AB72AEA7263000BB639 /* HomeViewController.swift */,
+				E4706AC92AEA7ADD000BB639 /* NativeLanguageViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E4706ABA2AEA729B000BB639 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E4706ABC2AEA7386000BB639 /* HomeViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		E4706ABB2AEA72BB000BB639 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E4706AC02AEA770C000BB639 /* Logins */ = {
+			isa = PBXGroup;
+			children = (
+				E4706ABE2AEA7700000BB639 /* LoginViewController.swift */,
+				E4706AC12AEA7723000BB639 /* SignupViewController.swift */,
+				E4706AC32AEA773C000BB639 /* ForgotPasswordViewController.swift */,
+			);
+			name = Logins;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +309,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D36AE0C02AEA7094000491E8 /* LaunchScreen.storyboard in Resources */,
+				E4706AC82AEA79D4000BB639 /* language.json in Resources */,
 				D36AE0BD2AEA7094000491E8 /* Assets.xcassets in Resources */,
-				D36AE0B82AEA7093000491E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +335,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D36AE0B52AEA7093000491E8 /* ViewController.swift in Sources */,
+				E4706AC42AEA773C000BB639 /* ForgotPasswordViewController.swift in Sources */,
+				E4706ABF2AEA7700000BB639 /* LoginViewController.swift in Sources */,
+				E4706AC22AEA7723000BB639 /* SignupViewController.swift in Sources */,
 				D36AE0BB2AEA7093000491E8 /* LanguageApp.xcdatamodeld in Sources */,
 				D36AE0B12AEA7093000491E8 /* AppDelegate.swift in Sources */,
+				E4706ACA2AEA7ADD000BB639 /* NativeLanguageViewController.swift in Sources */,
 				D36AE0B32AEA7093000491E8 /* SceneDelegate.swift in Sources */,
+				E4706AC62AEA7810000BB639 /* AddDivider+Extension.swift in Sources */,
+				E4706ABD2AEA7386000BB639 /* HomeViewModel.swift in Sources */,
+				E4706AB82AEA7263000BB639 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +381,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D36AE0B62AEA7093000491E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D36AE0B72AEA7093000491E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D36AE0BE2AEA7094000491E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -451,7 +523,7 @@
 				INFOPLIST_FILE = LanguageApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -479,7 +551,7 @@
 				INFOPLIST_FILE = LanguageApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

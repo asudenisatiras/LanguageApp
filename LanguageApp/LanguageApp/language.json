@@ -1,0 +1,129 @@
+[
+   {
+       "id": 1,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Oynamak",
+               "title": "Eliza'nın Parktaki Günü",
+               "sentence": "Eliza genç bir kızdır. Onun kırmızı bir topu var. Topunu çok seviyor. Bugün, parka gider. Eliza topuyla oynar. Onu yükseğe fırlatır. Top uçar ve geri gelir. Eliza mutludur. Tüm gün oynar."
+           },
+           {
+               "language": "English",
+               "word": "Play",
+               "title": "Eliza's Day at the Park",
+               "sentence": "Eliza is a young girl. She has a red ball. She loves her ball. Today, she goes to the park. Eliza plays with her ball. She throws it high into the sky. The ball flies and comes back. Eliza is happy. She plays all day."
+           },
+           {
+               "language": "Spanish",
+               "word": "Juega",
+               "title": "Día de Eliza en el parque",
+               "sentence": "Eliza es una niña joven. Tiene una pelota roja. Ella ama su pelota. Hoy, ella va al parque. Eliza juega con su pelota. La lanza alto en el cielo. La pelota vuela y vuelve. Eliza está feliz. Juega todo el día."
+           },
+           {
+               "language": "German",
+               "word": "Spielen",
+               "title": "Elizas Tag im Park",
+               "sentence": "Eliza ist ein junges Mädchen. Sie hat einen roten Ball. Sie liebt ihren Ball. Heute geht sie in den Park. Eliza spielt mit ihrem Ball. Sie wirft ihn hoch in den Himmel. Der Ball fliegt und kommt zurück. Eliza ist glücklich. Sie spielt den ganzen Tag."
+           }
+       ]
+   },
+   {
+       "id": 2,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Çalışmak",
+               "title": "Tavşan ve Kayıp Kuş",
+               "sentence": "Bir sabah ormanda küçük bir tavşan, kayıp bir kuş yavrusu buldu. Tavşan, ona yuva yapmayı öğretti. Birlikte keşfe çıktılar, yeni maceralar yaşadılar ve en iyi arkadaş oldular. Artık her sabah güneşin doğuşunu birlikte bekliyorlar. "
+           },
+           {
+
+               "language": "English",
+               "word": "Work",
+               "title": "The Rabbit and the Lost Bird",
+               "sentence": "One morning in the forest, a little rabbit found a lost bird chick. The rabbit taught it how to build a nest. They embarked on adventures together, experienced new things, and became best friends. Now, they wait for the sunrise together every morning.."
+           },
+           {
+
+               "language": "Spanish",
+               "word": "Trabajo",
+               "title": "El Conejo y el Pájaro Perdido",
+               "sentence": "Una mañana, en el bosque, un conejito encontró un polluelo de pájaro perdido. El conejito le enseñó a construir un nido. Juntos emprendieron aventuras, vivieron nuevas experiencias y se convirtieron en los mejores amigos. Ahora, esperan el amanecer juntos todas las mañanas."
+           },
+           {
+
+               "language": "German",
+               "word": "Arbeit",
+               "title": "Der Hase und der verlorene Vogel",
+               "sentence": "An einem Morgen im Wald fand ein kleines Kaninchen ein verlorenes Vogelküken. Das Kaninchen brachte ihm bei, wie man ein Nest baut. Gemeinsam erlebten sie Abenteuer, machten neue Erfahrungen und wurden beste Freunde. Jetzt warten sie jeden Morgen gemeinsam auf den Sonnenaufgang."
+           }
+       ]
+   },
+   {
+       "id": 3,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Yemek",
+               "title": "Ali'nin Lezzetli Günü",
+               "sentence": "Ali, annesinin yaptığı enfes yemekleri çok seviyor. Bugün, annesi ona favori yemeği olan köfte ve pilavı yapıyor. Ali mutluluktan havalara uçuyor. Lezzetli bir öğle yemeği yiyorlar."
+           },
+           {
+               "language": "English",
+               "word": "Eat",
+               "title": "Ali's Delicious Day",
+               "sentence": "Ali loves the delicious dishes his mother cooks. Today, his mother makes his favorite meal, meatballs and rice. Ali is over the moon with happiness. They enjoy a delicious lunch together."
+           },
+           {
+               "language": "Spanish",
+               "word": "Comer",
+               "title": "El Delicioso Día de Ali",
+               "sentence": "A Ali le encantan los deliciosos platillos que su madre cocina. Hoy, su madre prepara su comida favorita, albóndigas con arroz. Ali está lleno de felicidad. Disfrutan juntos un delicioso almuerzo."
+           },
+           {
+               "language": "German",
+               "word": "Essen",
+               "title": "Alis Leckerer Tag",
+               "sentence": "Ali liebt die köstlichen Gerichte, die seine Mutter zubereitet. Heute bereitet seine Mutter sein Lieblingsessen zu, Fleischbällchen mit Reis. Ali ist überglücklich. Sie genießen ein leckeres Mittagessen zusammen."
+           }
+       ]
+   },
+   {
+       "id": 4,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Okul",
+               "title": "Mehmet'in Okul Macerası",
+               "sentence": "Mehmet, ilk okul gününe heyecanla gidiyor. Okula gittiğinde yeni arkadaşlarıyla tanışıyor ve öğretmeni ona hoş geldin diyor. Mehmet, okumayı, yazmayı ve yeni şeyler öğrenmeyi çok seviyor. Okul onun için büyük bir macera."
+           },
+           {
+               "language": "English",
+               "word": "School",
+               "title": "Mehmet's School Adventure",
+               "sentence": "Mehmet goes to his first day of school with excitement. When he arrives at school, he meets his new friends, and the teacher welcomes him. Mehmet loves reading, writing, and learning new things. School is a big adventure for him."
+           },
+           {
+               "language": "Spanish",
+               "word": "Escuela",
+               "title": "La Aventura Escolar de Mehmet",
+               "sentence": "Mehmet va a su primer día de escuela con emoción. Cuando llega a la escuela, conoce a sus nuevos amigos, y la maestra le da la bienvenida. A Mehmet le encanta leer, escribir y aprender cosas nuevas. La escuela es una gran aventura para él."
+           },
+           {
+               "language": "German",
+               "word": "Schule",
+               "title": "Mehmets Schulabenteuer",
+               "sentence": "Mehmet geht aufgeregt in seinen ersten Schultag. Als er in der Schule ankommt, lernt er seine neuen Freunde kennen, und die Lehrerin heißt ihn willkommen. Mehmet liebt das Lesen, Schreiben und das Lernen neuer Dinge. Die Schule ist für ihn ein großes Abenteuer."
+           }
+       ]
+   },
+]

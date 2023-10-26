@@ -59,4 +59,11 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
             cell.imageName = imageNames[indexPath.row]
         return cell
     }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    
+                let selectTopicViewController = SelectTopicViewController()
+                   let navigationController = UINavigationController(rootViewController: selectTopicViewController)
+                navigationController.modalPresentationStyle = .fullScreen
+                   present(navigationController, animated: true, completion: nil)
+    }
 }

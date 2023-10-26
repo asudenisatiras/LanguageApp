@@ -23,6 +23,8 @@
 		E4706AC62AEA7810000BB639 /* AddDivider+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4706AC52AEA7810000BB639 /* AddDivider+Extension.swift */; };
 		E4706AC82AEA79D4000BB639 /* language.json in Resources */ = {isa = PBXBuildFile; fileRef = E4706AC72AEA79D4000BB639 /* language.json */; };
 		E4706ACA2AEA7ADD000BB639 /* NativeLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4706AC92AEA7ADD000BB639 /* NativeLanguageViewController.swift */; };
+		E4D44F292AEACB2200DE2534 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D44F282AEACB2200DE2534 /* UIHelper.swift */; };
+		E4D44F2B2AEACC7A00DE2534 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D44F2A2AEACC7A00DE2534 /* HomeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		E4706AC52AEA7810000BB639 /* AddDivider+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddDivider+Extension.swift"; sourceTree = "<group>"; };
 		E4706AC72AEA79D4000BB639 /* language.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = language.json; sourceTree = "<group>"; };
 		E4706AC92AEA7ADD000BB639 /* NativeLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeLanguageViewController.swift; sourceTree = "<group>"; };
+		E4D44F282AEACB2200DE2534 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		E4D44F2A2AEACC7A00DE2534 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				E4706AC52AEA7810000BB639 /* AddDivider+Extension.swift */,
+				E4D44F282AEACB2200DE2534 /* UIHelper.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 		E4706AB62AEA7227000BB639 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				E4D44F2A2AEACC7A00DE2534 /* HomeCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -338,12 +344,14 @@
 				E4706AC42AEA773C000BB639 /* ForgotPasswordViewController.swift in Sources */,
 				E4706ABF2AEA7700000BB639 /* LoginViewController.swift in Sources */,
 				E4706AC22AEA7723000BB639 /* SignupViewController.swift in Sources */,
+				E4D44F292AEACB2200DE2534 /* UIHelper.swift in Sources */,
 				D36AE0BB2AEA7093000491E8 /* LanguageApp.xcdatamodeld in Sources */,
 				D36AE0B12AEA7093000491E8 /* AppDelegate.swift in Sources */,
 				E4706ACA2AEA7ADD000BB639 /* NativeLanguageViewController.swift in Sources */,
 				D36AE0B32AEA7093000491E8 /* SceneDelegate.swift in Sources */,
 				E4706AC62AEA7810000BB639 /* AddDivider+Extension.swift in Sources */,
 				E4706ABD2AEA7386000BB639 /* HomeViewModel.swift in Sources */,
+				E4D44F2B2AEACC7A00DE2534 /* HomeCell.swift in Sources */,
 				E4706AB82AEA7263000BB639 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

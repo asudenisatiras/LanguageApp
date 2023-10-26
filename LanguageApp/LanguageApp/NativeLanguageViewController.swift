@@ -8,6 +8,23 @@
 import UIKit
 
 class NativeLanguageViewController: UIViewController {
+   
+    private var turkishButton: UIButton!
+    private var englishButton: UIButton!
+    private var germanButton: UIButton!
+    private var spanishButton: UIButton!
+ 
+    private var turkishImageView: UIImageView!
+    private var englishImageView: UIImageView!
+    private var germanImageView: UIImageView!
+    private var spanishImageView: UIImageView!
+    
+    
+    private var turkishLabel: UILabel!
+    private var englishLabel: UILabel!
+    private var germanLabel: UILabel!
+    private var spanishLabel: UILabel!
+    
     private var titleLabel: UILabel = {
         let label = UILabel()
         label.text = "What is your native language?"
@@ -16,64 +33,79 @@ class NativeLanguageViewController: UIViewController {
         return label
     }()
     
-    private var turkishButton: UIButton = {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        style()
+        layout()
+    }
+    
+    private func createLanguageButton(imageName: String, labelText: String) -> (UIButton, UIImageView, UILabel) {
         let button = UIButton()
         button.layer.cornerRadius = 16
         button.layer.borderWidth = 1
         button.layer.borderColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
         button.translatesAutoresizingMaskIntoConstraints = false
-        return button
-    }()
-    private var turkishImageView: UIImageView = {
-            let imageView = UIImageView()
-            imageView.image = UIImage(named: "turkish") // Resmin adını değiştirin
-        imageView.contentMode = .scaleAspectFill
-            imageView.translatesAutoresizingMaskIntoConstraints = false
-            return imageView
-        }()
         
-        private var turkishLabel: UILabel = {
-            let label = UILabel()
-            label.text = "TURKISH" // İstenilen metni ekleyin
-            label.font = UIFont.boldSystemFont(ofSize: 18)
-            label.translatesAutoresizingMaskIntoConstraints = false
-            return label
-        }()
-    
-    override func viewDidLoad() {
-        style()
-        layout()
+        let imageView = UIImageView()
+        imageView.image = UIImage(named: imageName)
+        imageView.contentMode = .scaleAspectFill
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        
+        let label = UILabel()
+        label.text = labelText
+        label.font = UIFont.boldSystemFont(ofSize: 18)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        
+        return (button, imageView, label)
     }
-}
-extension NativeLanguageViewController {
     
-    private func style(){
+    private func style() {
         view.backgroundColor = .white
     }
     
-    private func layout(){
+    private func layout() {
         view.addSubview(titleLabel)
-        view.addSubview(turkishButton)
-        turkishButton.addSubview(turkishImageView)
-        turkishButton.addSubview(turkishLabel)
+       
+        let languageButtons: [(UIButton, UIImageView, UILabel)] = [
+            createLanguageButton(imageName: "turkish", labelText: "TURKISH"),
+            createLanguageButton(imageName: "english", labelText: "ENGLISH"),
+            createLanguageButton(imageName: "german", labelText: "GERMAN"),
+            createLanguageButton(imageName: "spanish", labelText: "SPANISH")
+        ]
         
-        NSLayoutConstraint.activate([
-            titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 30),
-            titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+        var previousButton: UIButton? = nil
+        
+        for (button, imageView, label) in languageButtons {
+            view.addSubview(button)
             
-            turkishButton.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 30),
-            turkishButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            turkishButton.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.1),
-            turkishButton.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.9),
+            NSLayoutConstraint.activate([
+                button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+                button.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.1),
+                button.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.9)
+            ])
             
-            turkishImageView.leadingAnchor.constraint(equalTo: turkishButton.leadingAnchor, constant: 30),
-            turkishImageView.centerYAnchor.constraint(equalTo: turkishButton.centerYAnchor),
-//            turkishImageView.widthAnchor.constraint(equalToConstant: 60), // Resim boyutunu ayarlayın
-//            turkishImageView.heightAnchor.constraint(equalToConstant: 40), // Resim boyutunu ayarlayın
+            if let previous = previousButton {
+             
+                button.topAnchor.constraint(equalTo: previous.bottomAnchor, constant: 30).isActive = true
+            } else {
+               
+                button.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 30).isActive = true
+            }
             
-            turkishLabel.trailingAnchor.constraint(equalTo: turkishButton.trailingAnchor, constant: -100),
-            turkishLabel.centerYAnchor.constraint(equalTo: turkishButton.centerYAnchor),
-        ])
+            button.addSubview(imageView)
+            button.addSubview(label)
+            titleLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 100).isActive = true
+            titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+
+            NSLayoutConstraint.activate([
+                imageView.leadingAnchor.constraint(equalTo: button.leadingAnchor, constant: 30),
+                imageView.centerYAnchor.constraint(equalTo: button.centerYAnchor),
+                label.trailingAnchor.constraint(equalTo: button.trailingAnchor, constant: -100),
+                label.centerYAnchor.constraint(equalTo: button.centerYAnchor),
+                       ])
+            
+          
+            previousButton = button
+        }
     }
 }
-

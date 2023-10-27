@@ -28,6 +28,7 @@
 		E4B44EA72AEBEB8A0038CAA4 /* WritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B44EA62AEBEB8A0038CAA4 /* WritingViewController.swift */; };
 		E4B44EA92AEBF4F70038CAA4 /* ListeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B44EA82AEBF4F70038CAA4 /* ListeningViewController.swift */; };
 		E4B44EAB2AEBF5060038CAA4 /* SentencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B44EAA2AEBF5060038CAA4 /* SentencesViewController.swift */; };
+		E4B44EAF2AEBF7830038CAA4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B44EAE2AEBF7830038CAA4 /* SettingsViewController.swift */; };
 		E4BA47FF2AEAEA9D00DDF83A /* SelectTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BA47FE2AEAEA9D00DDF83A /* SelectTopicViewController.swift */; };
 		E4BA48012AEAEB3200DDF83A /* TopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BA48002AEAEB3200DDF83A /* TopicView.swift */; };
 		E4D44F292AEACB2200DE2534 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D44F282AEACB2200DE2534 /* UIHelper.swift */; };
@@ -77,6 +78,7 @@
 		E4B44EA62AEBEB8A0038CAA4 /* WritingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingViewController.swift; sourceTree = "<group>"; };
 		E4B44EA82AEBF4F70038CAA4 /* ListeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningViewController.swift; sourceTree = "<group>"; };
 		E4B44EAA2AEBF5060038CAA4 /* SentencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentencesViewController.swift; sourceTree = "<group>"; };
+		E4B44EAE2AEBF7830038CAA4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E4BA47FE2AEAEA9D00DDF83A /* SelectTopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTopicViewController.swift; sourceTree = "<group>"; };
 		E4BA48002AEAEB3200DDF83A /* TopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicView.swift; sourceTree = "<group>"; };
 		E4D44F282AEACB2200DE2534 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				E4B44EA42AEBEB750038CAA4 /* ShuffleViewController.swift */,
 				E4B44EA82AEBF4F70038CAA4 /* ListeningViewController.swift */,
 				E4B44EAA2AEBF5060038CAA4 /* SentencesViewController.swift */,
+				E4B44EAE2AEBF7830038CAA4 /* SettingsViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				E4706AC42AEA773C000BB639 /* ForgotPasswordViewController.swift in Sources */,
 				E4706ABF2AEA7700000BB639 /* LoginViewController.swift in Sources */,
 				E4B44EA52AEBEB750038CAA4 /* ShuffleViewController.swift in Sources */,
+				E4B44EAF2AEBF7830038CAA4 /* SettingsViewController.swift in Sources */,
 				E4B44EA32AEBEB5A0038CAA4 /* ReadingViewController.swift in Sources */,
 				E4706AC22AEA7723000BB639 /* SignupViewController.swift in Sources */,
 				E4BA47FF2AEAEA9D00DDF83A /* SelectTopicViewController.swift in Sources */,

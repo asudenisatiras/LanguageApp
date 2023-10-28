@@ -32,7 +32,15 @@ class SelectTopicViewController: UIViewController {
         style()
         layout()
         buttonSet()
+        let backButton = UIBarButtonItem(image: UIImage(systemName: "chevron.left"), style: .plain, target: self, action: #selector(backButtonTapped))
+        backButton.tintColor = .systemIndigo
+        navigationItem.leftBarButtonItem = backButton
     }
+    
+    @objc private func backButtonTapped() {
+        navigationController?.dismiss(animated: true, completion: nil)
+    }
+    
     
     func buttonSet() {
         for (index, title) in buttonTitles.enumerated() {
@@ -61,6 +69,7 @@ class SelectTopicViewController: UIViewController {
         if let selectedButton = selectedButton {
             selectedButton.layer.borderWidth = 1
             selectedButton.backgroundColor = .clear
+            selectedButton.layer.borderColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
         }
         sender.backgroundColor = UIColor(red: 243/255, green: 241/255, blue: 255/255, alpha: 1)
         sender.layer.borderWidth = 2

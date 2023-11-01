@@ -15,10 +15,11 @@ class SelectTopicViewController: UIViewController {
         label.numberOfLines = 2
         return label
     }()
+    
     private var nextButton: UIButton = {
         let button = UIButton()
         button.setTitle("Next", for: .normal)
-        button.backgroundColor = UIColor(red: 169/255, green: 169/255, blue: 169/255, alpha: 1) // Set gray background
+        button.backgroundColor = UIColor(red: 169/255, green: 169/255, blue: 169/255, alpha: 1) 
         button.layer.cornerRadius = 8
         button.translatesAutoresizingMaskIntoConstraints = false
         button.isEnabled = false
@@ -53,9 +54,17 @@ class SelectTopicViewController: UIViewController {
             button.translatesAutoresizingMaskIntoConstraints = false
             button.tintColor = .black
             view.addSubview(button)
+
             
+            if let image = UIImage(named: "\(title.lowercased())_image") {
+                button.setImage(image, for: .normal)
+                button.imageView?.contentMode = .scaleAspectFit
+                button.imageEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+                button.titleEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+            }
+
             button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
-            
+
             NSLayoutConstraint.activate([
                 button.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
                 button.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
@@ -64,7 +73,8 @@ class SelectTopicViewController: UIViewController {
             ])
         }
     }
-    
+
+
     @objc func buttonTapped(_ sender: UIButton) {
         if let selectedButton = selectedButton {
             selectedButton.layer.borderWidth = 1
@@ -80,7 +90,7 @@ class SelectTopicViewController: UIViewController {
     }
     @objc func nextButtonTapped() {
         guard let selectedButton = selectedButton, let title = selectedButton.title(for: .normal) else {
-            // Seçili düğme yoksa veya düğmenin başlığı yoksa bir şey yapma.
+            
             return
         }
         
@@ -128,6 +138,17 @@ extension SelectTopicViewController {
         ])
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 //import UIKit
 //

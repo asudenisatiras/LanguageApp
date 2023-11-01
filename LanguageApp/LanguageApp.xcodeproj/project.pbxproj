@@ -15,6 +15,7 @@
 		D36AE0CB2AEA7094000491E8 /* LanguageAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36AE0CA2AEA7094000491E8 /* LanguageAppTests.swift */; };
 		D36AE0D52AEA7094000491E8 /* LanguageAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36AE0D42AEA7094000491E8 /* LanguageAppUITests.swift */; };
 		D36AE0D72AEA7094000491E8 /* LanguageAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36AE0D62AEA7094000491E8 /* LanguageAppUITestsLaunchTests.swift */; };
+		D3F14BCC2AEE81F7007EADB7 /* LanguagetoLearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F14BCB2AEE81F7007EADB7 /* LanguagetoLearnViewController.swift */; };
 		E42E28EE2AED1ED100246A31 /* StoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E28ED2AED1ED100246A31 /* StoriesCell.swift */; };
 		E42E28F42AED25C600246A31 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E28F32AED25C600246A31 /* StoryViewController.swift */; };
 		E4706AB82AEA7263000BB639 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4706AB72AEA7263000BB639 /* HomeViewController.swift */; };
@@ -67,6 +68,7 @@
 		D36AE0D02AEA7094000491E8 /* LanguageAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36AE0D42AEA7094000491E8 /* LanguageAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageAppUITests.swift; sourceTree = "<group>"; };
 		D36AE0D62AEA7094000491E8 /* LanguageAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3F14BCB2AEE81F7007EADB7 /* LanguagetoLearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagetoLearnViewController.swift; sourceTree = "<group>"; };
 		E42E28ED2AED1ED100246A31 /* StoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesCell.swift; sourceTree = "<group>"; };
 		E42E28F32AED25C600246A31 /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
 		E4706AB72AEA7263000BB639 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				E4706AC92AEA7ADD000BB639 /* NativeLanguageViewController.swift */,
+				D3F14BCB2AEE81F7007EADB7 /* LanguagetoLearnViewController.swift */,
 				E4706AB72AEA7263000BB639 /* HomeViewController.swift */,
 				E4BA47FE2AEAEA9D00DDF83A /* SelectTopicViewController.swift */,
 			);
@@ -427,6 +430,7 @@
 				E4706ACA2AEA7ADD000BB639 /* NativeLanguageViewController.swift in Sources */,
 				D36AE0B32AEA7093000491E8 /* SceneDelegate.swift in Sources */,
 				E4706AC62AEA7810000BB639 /* AddDivider+Extension.swift in Sources */,
+				D3F14BCC2AEE81F7007EADB7 /* LanguagetoLearnViewController.swift in Sources */,
 				E4706ABD2AEA7386000BB639 /* HomeViewModel.swift in Sources */,
 				E4D44F2B2AEACC7A00DE2534 /* HomeCell.swift in Sources */,
 				E4BA48012AEAEB3200DDF83A /* TopicView.swift in Sources */,

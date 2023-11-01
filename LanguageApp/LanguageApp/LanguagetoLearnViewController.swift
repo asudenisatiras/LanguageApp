@@ -1,19 +1,19 @@
 //
-//  NativeLanguageViewController.swift
+//  LanguagetoLearnViewController.swift
 //  LanguageApp
 //
-//  Created by Ahmet Akgün on 26.10.2023.
+//  Created by Asude Nisa Tıraş on 29.10.2023.
 //
 
 import UIKit
 
-class NativeLanguageViewController: UIViewController {
+class LanguagetoLearnViewController: UIViewController {
     
     private var selectedButton: UIButton?
     
     private var titleLabel: UILabel = {
         let label = UILabel()
-        label.text = "What is your native language?"
+        label.text = "What would like to learn?"
         label.font = UIFont.boldSystemFont(ofSize: 22)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -28,7 +28,8 @@ class NativeLanguageViewController: UIViewController {
            button.addTarget(self, action: #selector(nextButtonTapped), for: .touchUpInside)
            return button
        }()
-    
+  
+
     override func viewDidLoad() {
         super.viewDidLoad()
         style()
@@ -73,14 +74,14 @@ class NativeLanguageViewController: UIViewController {
     }
     
     @objc private func nextButtonTapped() {
-        let homeViewController = LanguagetoLearnViewController()
+        let homeViewController = HomeViewController()
         homeViewController.modalPresentationStyle = .fullScreen
         present(homeViewController, animated: true, completion: nil)
         }
 
 }
 
-extension NativeLanguageViewController {
+extension LanguagetoLearnViewController {
     
     private func style() {
         view.backgroundColor = .white

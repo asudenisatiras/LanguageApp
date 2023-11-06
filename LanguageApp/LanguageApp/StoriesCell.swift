@@ -12,7 +12,7 @@ final class StoriesCell: UITableViewCell {
  
     private let storyName: UILabel = {
         let label = UILabel()
-        label.text = "Eliza's Dat at the Park"
+        label.text = "Eliza's Day at the Park"
         label.numberOfLines = 0
         label.font = UIFont.boldSystemFont(ofSize: 18)
         return label

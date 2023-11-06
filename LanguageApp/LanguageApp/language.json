@@ -1,7 +1,7 @@
 [
    {
        "id": 1,
-       "type": "",
+       "type": "Beginner",
        "subtitle": "",
        "languages": [
            {
@@ -127,3 +127,8 @@
        ]
    },
 ]
+
+
+
+
+

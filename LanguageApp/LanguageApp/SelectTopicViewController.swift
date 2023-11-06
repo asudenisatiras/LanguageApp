@@ -42,7 +42,6 @@ class SelectTopicViewController: UIViewController {
         navigationController?.dismiss(animated: true, completion: nil)
     }
     
-    
     func buttonSet() {
         for (index, title) in buttonTitles.enumerated() {
             let button = UIButton()
@@ -126,7 +125,7 @@ extension SelectTopicViewController {
         view.addSubview(titleLabel)
         view.addSubview(nextButton)
         
-        
+    
         NSLayoutConstraint.activate([
             titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 40),
             titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),

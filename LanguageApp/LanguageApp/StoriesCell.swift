@@ -10,7 +10,7 @@ import UIKit
 final class StoriesCell: UITableViewCell {
     static let reuseID = "SettingsCell"
  
-    private let storyName: UILabel = {
+     let storyName: UILabel = {
         let label = UILabel()
         label.text = "Eliza's Day at the Park"
         label.numberOfLines = 0

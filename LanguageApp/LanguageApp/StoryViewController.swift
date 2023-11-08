@@ -47,6 +47,7 @@ class StoryViewController: UIViewController {
     override func viewDidLoad() {
         style()
         layout()
+        
         let backButton = UIBarButtonItem(image: UIImage(systemName: "chevron.left"), style: .plain, target: self, action: #selector(backButtonTapped))
         backButton.tintColor = .systemIndigo
         navigationItem.leftBarButtonItem = backButton
@@ -55,6 +56,41 @@ class StoryViewController: UIViewController {
     @objc private func backButtonTapped() {
         navigationController?.dismiss(animated: true, completion: nil)
     }
+//    func readJSONFile() {
+//        if let path = Bundle.main.path(forResource: "language", ofType: "json") {
+//            do {
+//                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+//                let decoder = JSONDecoder()
+//                let languageData = try decoder.decode([LanguageData].self, from: data)
+//                
+//                if let languageEntry = languageData.first(where: { $0.id == 3 }) {
+//                    nativeLanguageLabel.text = languageEntry.languages?[0].sentence
+//                    learningLanguageLabel.text = languageEntry.languages?[1].sentence
+//                }
+//
+//            } catch {
+//                print("JSON verileri okunamadı: \(error)")
+//            }
+//        }
+//    }
+    func readJSONFile(forID id: Int) {
+        if let path = Bundle.main.path(forResource: "language", ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                let decoder = JSONDecoder()
+                let languageData = try decoder.decode([LanguageData].self, from: data)
+                
+                if let languageEntry = languageData.first(where: { $0.id == id }) {
+                    titleLabel.text = languageEntry.type
+                    nativeLanguageLabel.text = languageEntry.languages?[0].sentence
+                    learningLanguageLabel.text = languageEntry.languages?[1].sentence
+                }
+            } catch {
+                print("JSON verileri okunamadı: \(error)")
+            }
+        }
+    }
+
     
 }
 extension StoryViewController {

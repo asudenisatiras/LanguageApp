@@ -1,30 +1,30 @@
 [
    {
        "id": 1,
-       "type": "Beginner",
+       "type": "",
        "subtitle": "",
        "languages": [
            {
                "language": "Turkish",
-               "word": "Oynamak",
+               "word": "Hakkında",
                "title": "Eliza'nın Parktaki Günü",
                "sentence": "Eliza genç bir kızdır. Onun kırmızı bir topu var. Topunu çok seviyor. Bugün, parka gider. Eliza topuyla oynar. Onu yükseğe fırlatır. Top uçar ve geri gelir. Eliza mutludur. Tüm gün oynar."
            },
            {
                "language": "English",
-               "word": "Play",
+               "word": "About",
                "title": "Eliza's Day at the Park",
                "sentence": "Eliza is a young girl. She has a red ball. She loves her ball. Today, she goes to the park. Eliza plays with her ball. She throws it high into the sky. The ball flies and comes back. Eliza is happy. She plays all day."
            },
            {
                "language": "Spanish",
-               "word": "Juega",
+               "word": "Acerca de",
                "title": "Día de Eliza en el parque",
                "sentence": "Eliza es una niña joven. Tiene una pelota roja. Ella ama su pelota. Hoy, ella va al parque. Eliza juega con su pelota. La lanza alto en el cielo. La pelota vuela y vuelve. Eliza está feliz. Juega todo el día."
            },
            {
                "language": "German",
-               "word": "Spielen",
+               "word": "Über",
                "title": "Elizas Tag im Park",
                "sentence": "Eliza ist ein junges Mädchen. Sie hat einen roten Ball. Sie liebt ihren Ball. Heute geht sie in den Park. Eliza spielt mit ihrem Ball. Sie wirft ihn hoch in den Himmel. Der Ball fliegt und kommt zurück. Eliza ist glücklich. Sie spielt den ganzen Tag."
            }
@@ -37,28 +37,28 @@
        "languages": [
            {
                "language": "Turkish",
-               "word": "Çalışmak",
+               "word": "Yukarı",
                "title": "Tavşan ve Kayıp Kuş",
                "sentence": "Bir sabah ormanda küçük bir tavşan, kayıp bir kuş yavrusu buldu. Tavşan, ona yuva yapmayı öğretti. Birlikte keşfe çıktılar, yeni maceralar yaşadılar ve en iyi arkadaş oldular. Artık her sabah güneşin doğuşunu birlikte bekliyorlar. "
            },
            {
 
                "language": "English",
-               "word": "Work",
+               "word": "Above",
                "title": "The Rabbit and the Lost Bird",
                "sentence": "One morning in the forest, a little rabbit found a lost bird chick. The rabbit taught it how to build a nest. They embarked on adventures together, experienced new things, and became best friends. Now, they wait for the sunrise together every morning.."
            },
            {
 
                "language": "Spanish",
-               "word": "Trabajo",
+               "word": "Arriba",
                "title": "El Conejo y el Pájaro Perdido",
                "sentence": "Una mañana, en el bosque, un conejito encontró un polluelo de pájaro perdido. El conejito le enseñó a construir un nido. Juntos emprendieron aventuras, vivieron nuevas experiencias y se convirtieron en los mejores amigos. Ahora, esperan el amanecer juntos todas las mañanas."
            },
            {
 
                "language": "German",
-               "word": "Arbeit",
+               "word": "Über",
                "title": "Der Hase und der verlorene Vogel",
                "sentence": "An einem Morgen im Wald fand ein kleines Kaninchen ein verlorenes Vogelküken. Das Kaninchen brachte ihm bei, wie man ein Nest baut. Gemeinsam erlebten sie Abenteuer, machten neue Erfahrungen und wurden beste Freunde. Jetzt warten sie jeden Morgen gemeinsam auf den Sonnenaufgang."
            }
@@ -71,25 +71,25 @@
        "languages": [
            {
                "language": "Turkish",
-               "word": "Yemek",
+               "word": "Adres",
                "title": "Ali'nin Lezzetli Günü",
                "sentence": "Ali, annesinin yaptığı enfes yemekleri çok seviyor. Bugün, annesi ona favori yemeği olan köfte ve pilavı yapıyor. Ali mutluluktan havalara uçuyor. Lezzetli bir öğle yemeği yiyorlar."
            },
            {
                "language": "English",
-               "word": "Eat",
+               "word": "Address",
                "title": "Ali's Delicious Day",
                "sentence": "Ali loves the delicious dishes his mother cooks. Today, his mother makes his favorite meal, meatballs and rice. Ali is over the moon with happiness. They enjoy a delicious lunch together."
            },
            {
                "language": "Spanish",
-               "word": "Comer",
+               "word": "Dirección",
                "title": "El Delicioso Día de Ali",
                "sentence": "A Ali le encantan los deliciosos platillos que su madre cocina. Hoy, su madre prepara su comida favorita, albóndigas con arroz. Ali está lleno de felicidad. Disfrutan juntos un delicioso almuerzo."
            },
            {
                "language": "German",
-               "word": "Essen",
+               "word": "Adresse",
                "title": "Alis Leckerer Tag",
                "sentence": "Ali liebt die köstlichen Gerichte, die seine Mutter zubereitet. Heute bereitet seine Mutter sein Lieblingsessen zu, Fleischbällchen mit Reis. Ali ist überglücklich. Sie genießen ein leckeres Mittagessen zusammen."
            }
@@ -102,30 +102,3071 @@
        "languages": [
            {
                "language": "Turkish",
-               "word": "Okul",
+               "word": "Yetişkin",
                "title": "Mehmet'in Okul Macerası",
                "sentence": "Mehmet, ilk okul gününe heyecanla gidiyor. Okula gittiğinde yeni arkadaşlarıyla tanışıyor ve öğretmeni ona hoş geldin diyor. Mehmet, okumayı, yazmayı ve yeni şeyler öğrenmeyi çok seviyor. Okul onun için büyük bir macera."
            },
            {
                "language": "English",
-               "word": "School",
+               "word": "Adult",
                "title": "Mehmet's School Adventure",
                "sentence": "Mehmet goes to his first day of school with excitement. When he arrives at school, he meets his new friends, and the teacher welcomes him. Mehmet loves reading, writing, and learning new things. School is a big adventure for him."
            },
            {
                "language": "Spanish",
-               "word": "Escuela",
+               "word": "Adulto",
                "title": "La Aventura Escolar de Mehmet",
                "sentence": "Mehmet va a su primer día de escuela con emoción. Cuando llega a la escuela, conoce a sus nuevos amigos, y la maestra le da la bienvenida. A Mehmet le encanta leer, escribir y aprender cosas nuevas. La escuela es una gran aventura para él."
            },
            {
                "language": "German",
-               "word": "Schule",
+               "word": "Erwachsener",
                "title": "Mehmets Schulabenteuer",
                "sentence": "Mehmet geht aufgeregt in seinen ersten Schultag. Als er in der Schule ankommt, lernt er seine neuen Freunde kennen, und die Lehrerin heißt ihn willkommen. Mehmet liebt das Lesen, Schreiben und das Lernen neuer Dinge. Die Schule ist für ihn ein großes Abenteuer."
            }
        ]
    },
+   {
+       "id": 5,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Sonra",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "After",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Después",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Nach",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 6,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Öğleden sonra",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Afternoon",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Tarde",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Nachmittag",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 7,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Tekrar",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Again",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Otra vez",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Wieder",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 8,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Yaş",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Age",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Edad",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Alter",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 9,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Tüm",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "All",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Todos",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Alle",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 10,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Her zaman",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Always",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Siempre",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Immer",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 11,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Ve",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "And",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Y",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Und",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 12,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Hayvan",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Animal",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Animal",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Tier",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 13,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Cevap",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Answer",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Respuesta",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Antwort",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 14,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Herhangi bir",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Any",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Cualquier",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Jeder",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 15,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Elma",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Apple",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Manzana",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Apfel",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 16,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Nisan",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "April",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Abril",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "April",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 17,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Kol",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Arm",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Brazo",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Arm",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 18,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Sormak",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Ask",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Preguntar",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Fragen",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 19,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Ağustos",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "August",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Agosto",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "August",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 20,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Bebek",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Baby",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Bebé",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Baby",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 21,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Geri",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Back",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Espalda",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Zurück",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 22,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Kötü",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Bad",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Malo",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Schlecht",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 23,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Çanta",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Bag",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Bolsa",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Tasche",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 24,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Top",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Ball",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Pelota",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Ball",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 25,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Muz",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Banana",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Plátano",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Banane",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 26,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Banka",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Bank",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Banco",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Bank",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 27,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Banyo",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Bath",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Baño",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Bad",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 28,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Banyo",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Bathroom",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Baño",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Badezimmer",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 29,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Olmak",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Be",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Ser",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Sein",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 30,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Plaj",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Beach",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Playa",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Strand",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 31,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Sakal",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Beard",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Barba",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Bart",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 32,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Güzel",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Beautiful",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Hermoso",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Schön",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 33,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Çünkü",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Because",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Porque",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Weil",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 34,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Yatak",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Bed",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Cama",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Bett",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 35,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Bira",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Beer",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Cerveza",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Bier",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 36,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Önce",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Before",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Antes",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Vor",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 37,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Başlamak",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Begin",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Empezar",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Beginnen",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 38,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Arkasında",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Behind",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Detrás",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Hinter",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 39,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Altında",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Below",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Debajo",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Unten",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 35,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "En iyi",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Best",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Mejor",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Am besten",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 40,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Daha iyi",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Better",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Mejor",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Besser",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 41,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Arasında",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Between",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Entre",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Zwischen",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 42,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Büyük",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Big",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Grande",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Groß",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 43,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Kuş",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Bird",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Pájaro",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Vogel",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 44,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Doğum günü",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Birthday",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Cumpleaños",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Geburtstag",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 45,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Bisküvi",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Biscuit",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Galleta",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Keks",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 46,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Siyah",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Black",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Negro",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Schwarz",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 47,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Mavi",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Blue",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Azul",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Blau",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 48,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Tahta",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Board",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Tablero",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Brett",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 49,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Tekne",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Boat",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Barco",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Boot",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 50,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Vücut",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Body",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Cuerpo",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Körper",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 51,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Kitap",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Book",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Libro",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Buch",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 52,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Sıkılmış",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Bored",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Aburrido",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Gelangweilt",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 53,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "İkisi de",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Both",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Ambos",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Beide",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 54,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Alt",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Bottom",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Fondo",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Unten",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 55,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Kutu",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Box",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Caja",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Schachtel",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 56,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Erkek çocuk",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Boy",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Niño",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Junge",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 57,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Ekmek",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Bread",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Pan",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Brot",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 58,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Kahvaltı",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Breakfast",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Desayuno",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Frühstück",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 59,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Kardeş",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Brother",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Hermano",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Bruder",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 60,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Kahverengi",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Brown",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Marrón",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Braun",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 61,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Otobüs",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Bus",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Autobús",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Bus",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 62,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Ama",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "But",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Pero",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Aber",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 63,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Satın almak",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Buy",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Comprar",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Kaufen",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 64,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Tereyağı",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Butter",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Mantequilla",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Butter",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 65,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Pasta",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Cake",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Pastel",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Kuchen",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 66,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Ara",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Call",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Llamar",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Anrufen",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 67,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Kamera",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Camera",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Cámara",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Kamera",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 68,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Araba",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Car",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Coche",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Auto",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 69,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Taşımak",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Carry",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Llevar",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Tragen",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 70,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Kedi",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Cat",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Gato",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Katze",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 71,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Yakalamak",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Catch",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Atrapar",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Fangen",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 72,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Değiştirmek",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Change",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Cambiar",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Ändern",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 73,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Ucuz",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Cheap",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Barato",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Günstig",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 74,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Peynir",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Cheese",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Queso",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Käse",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 75,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Çocuk",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Child",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Niño",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Kind",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 76,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Cips",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Chip",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Patata frita",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Chip",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 77,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Çikolata",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Chocolate",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Chocolate",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Schokolade",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 78,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Seçmek",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Choose",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Elegir",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Wählen",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 79,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Sinema",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Cinema",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Cine",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Kino",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 80,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Şehir",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "City",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Ciudad",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Stadt",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 81,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Sınıf",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Class",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Clase",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Klasse",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 82,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Sınıf",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Classroom",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Aula",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Klassenzimmer",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 83,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Temiz",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Clean",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Limpio",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Sauber",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 84,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Zeki",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Clever",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Inteligente",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Klug",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 85,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Saat",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Clock",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Reloj",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Uhr",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 86,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Kapat",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Close",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Cerrar",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Schließen",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 87,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Kapalı",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Closed",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Cerrado",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Geschlossen",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 88,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Giysiler",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Clothes",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Ropa",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Kleidung",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 89,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Ceket",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Coat",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Abrigo",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Mantel",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 90,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Kahve",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Coffee",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Café",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Kaffee",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 91,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Soğuk",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Cold",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Frío",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Kalt",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 92,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Renk",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Colour",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Color",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Farbe",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 93,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Gel",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Come",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Venir",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Kommen",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 94,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Bilgisayar",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Computer",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Ordenador",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Computer",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 95,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Pişirmek",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Cook",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Cocinar",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Kochen",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 96,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Ülke",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Country",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "País",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Land",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 97,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Kurs",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Course",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Curso",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Kurs",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 98,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "İnek",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Cow",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Vaca",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Kuh",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 99,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Çapraz",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Cross",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Cruz",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Kreuz",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 100,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "Bardak",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "Cup",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "Taza",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "Tasse",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   {
+       "id": 101,
+       "type": "",
+       "subtitle": "",
+       "languages": [
+           {
+               "language": "Turkish",
+               "word": "",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "English",
+               "word": "",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "Spanish",
+               "word": "",
+               "title": "",
+               "sentence": ""
+           },
+           {
+               "language": "German",
+               "word": "",
+               "title": "",
+               "sentence": ""
+           }
+       ]
+   },
+   
+   
+   
 ]
 
 

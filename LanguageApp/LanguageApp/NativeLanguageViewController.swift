@@ -73,11 +73,14 @@ class NativeLanguageViewController: UIViewController {
     }
     
     @objc private func nextButtonTapped() {
+//        let homeViewController = LanguagetoLearnViewController()
+//        homeViewController.modalPresentationStyle = .fullScreen
+//        present(homeViewController, animated: true, completion: nil)
         let homeViewController = LanguagetoLearnViewController()
-        homeViewController.modalPresentationStyle = .fullScreen
-        present(homeViewController, animated: true, completion: nil)
+           let navigationController = UINavigationController(rootViewController: homeViewController)
+        navigationController.modalPresentationStyle = .fullScreen
+           present(navigationController, animated: true, completion: nil)
         }
-
 }
 
 extension NativeLanguageViewController {

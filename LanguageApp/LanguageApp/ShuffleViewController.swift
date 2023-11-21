@@ -35,45 +35,96 @@ class ShuffleViewController: UIViewController {
     }
     
     @objc func leftButtonTapped(_ sender: UIButton) {
-        guard !selectedButtons.contains(sender), selectedButtons.count < 2 else { return }
+        guard !selectedButtons.contains(sender), selectedButtons.count < 2 else {
+            return
+        }
         
-        sender.backgroundColor = .blue
+        sender.backgroundColor = UIColor(red: 85/255, green: 167/255, blue: 226/255, alpha: 0.17) // Mavi
+        sender.layer.borderWidth = 2
+        sender.layer.borderColor =  UIColor(red: 85/255, green: 167/255, blue: 226/255, alpha: 1).cgColor // Mavi
         selectedButtons.append(sender)
+        
+        // Set the selectedLeftButton variable
+        selectedLeftButton = sender
+        
         checkAllMatchingIDsAndColorButtons()
     }
 
     @objc func rightButtonTapped(_ sender: UIButton) {
-        guard !selectedButtons.contains(sender), selectedButtons.count < 2 else { return }
+        guard !selectedButtons.contains(sender), selectedButtons.count < 2 else {
+
+            return
+        }
         
-        sender.backgroundColor = .blue
+        sender.backgroundColor = UIColor(red: 85/255, green: 167/255, blue: 226/255, alpha: 0.17) // Mavi
+        sender.layer.borderWidth = 2
+        sender.layer.borderColor =  UIColor(red: 85/255, green: 167/255, blue: 226/255, alpha: 1).cgColor // Mavi
         selectedButtons.append(sender)
+        
+        // Set the selectedRightButton variable
+        selectedRightButton = sender
+        
         checkAllMatchingIDsAndColorButtons()
     }
- 
+
     private func checkAllMatchingIDsAndColorButtons() {
         guard selectedButtons.count == 2 else { return }
-        
+
         guard let leftTitle = selectedButtons[0].currentTitle,
               let rightTitle = selectedButtons[1].currentTitle else { return }
 
         let leftButton = selectedButtons[0]
         let rightButton = selectedButtons[1]
 
-        guard let leftID = languageData.first(where: { $0.languages?[0].word == leftTitle })?.id,
-              let rightID = languageData.first(where: { $0.languages?[1].word == rightTitle })?.id else {
+        guard let leftID = languageData.first(where: { $0.languages?[0].word == leftTitle || $0.languages?[1].word == leftTitle })?.id,
+              let rightID = languageData.first(where: { $0.languages?[0].word == rightTitle || $0.languages?[1].word == rightTitle })?.id else {
             return
         }
 
         if leftID == rightID {
-            leftButton.backgroundColor = .green
-            rightButton.backgroundColor = .green
+            leftButton.backgroundColor = UIColor(red: 77/255, green: 220/255, blue: 53/255, alpha: 0.17) // Yeşil
+            leftButton.layer.borderWidth = 2
+            leftButton.layer.borderColor =  UIColor(red: 77/255, green: 220/255, blue: 53/255, alpha: 1).cgColor // Yeşil
+            rightButton.backgroundColor = UIColor(red: 77/255, green: 220/255, blue: 53/255, alpha: 0.17) // Yeşil
+            rightButton.layer.borderWidth = 2
+            rightButton.layer.borderColor =  UIColor(red: 77/255, green: 220/255, blue: 53/255, alpha: 1).cgColor // Yeşil
             disableAllMatchingButtons()
         } else {
-            leftButton.backgroundColor = .red
-            rightButton.backgroundColor = .red
+            leftButton.backgroundColor = UIColor(red: 255/255, green: 178/255, blue: 178/255, alpha: 0.17) // Kırmızı
+            leftButton.layer.borderWidth = 2
+            leftButton.layer.borderColor = UIColor(red: 255/255, green: 178/255, blue: 178/255, alpha: 1).cgColor // Kırmızı
+            rightButton.backgroundColor = UIColor(red: 255/255, green: 178/255, blue: 178/255, alpha: 0.17) // Kırmızı
+            rightButton.layer.borderWidth = 2
+            rightButton.layer.borderColor = UIColor(red: 255/255, green: 178/255, blue: 178/255, alpha: 1).cgColor // Kırmızı
             enableAllButtons()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.7) {
+                       self.resetButtonColors()
+                   }
         }
+        // Reset the selected buttons
         selectedButtons.removeAll()
+    }
+    private func resetButtonColors() {
+        // Reset the color of only the red buttons
+        for button in leftStackView.arrangedSubviews {
+            if let resetButton = button as? UIButton, resetButton.backgroundColor == UIColor(red: 255/255, green: 178/255, blue: 178/255, alpha: 0.17) {
+                UIView.animate(withDuration: 1.0) {
+                    resetButton.backgroundColor = .clear
+                    resetButton.layer.borderWidth = 1
+                    resetButton.layer.borderColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+                }
+            }
+        }
+
+        for button in rightStackView.arrangedSubviews {
+            if let resetButton = button as? UIButton, resetButton.backgroundColor == UIColor(red: 255/255, green: 178/255, blue: 178/255, alpha: 0.17) {
+                UIView.animate(withDuration: 1.0) {
+                    resetButton.backgroundColor = .clear
+                    resetButton.layer.borderWidth = 1
+                    resetButton.layer.borderColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+                }
+            }
+        }
     }
 
     private func disableAllMatchingButtons() {
@@ -199,7 +250,6 @@ extension ShuffleViewController {
                 }
             }
         }
-
         // Sağdaki butonların sıralamasını değiştirelim
         selectedTitles.shuffle()
 
@@ -213,7 +263,6 @@ extension ShuffleViewController {
             rightButton.setTitle(selectedTitles[index], for: .normal)
             rightStackView.addArrangedSubview(rightButton)
         }
-        
     }
  
     private func style() {
